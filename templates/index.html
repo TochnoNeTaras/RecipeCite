@@ -5,30 +5,9 @@
 {% endblock title %}
 
 {% block content %}
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" style="max-height: 100vh;">
-          <div class="carousel-item active">
-            <img src="{{ url_for('static', filename='img/arian-darvishi-wh-RPfR_3_M-unsplash.jpg') }}" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="{{ url_for('static', filename='img/desola-lanre-ologun-USp4Gzr-Hdw-unsplash.jpg') }}" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="{{ url_for('static', filename='img/coding-1841550_1920.jpg') }}" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+
     <main class="container mt-5">
-        <h1 class="my-4">Статті</h1>
+        <h1 class="my-4">Рецепти</h1>
         <div class="d-flex flex-wrap justify-content-center gap-3">
         {% for article in articles %}
           <div class="card" style="width: 18rem;">

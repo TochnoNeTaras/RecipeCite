@@ -21,11 +21,11 @@
     <!-- Тіло: увесь вміст сторінки -->
     <header class="py-3">
         <!-- Шапка сайту: назва, логотип, навігація -->
-        <nav data-bs-theme="dark" class="navbar navbar-expand-lg fixed-top" style="background: rgb(56, 0, 56);">
+        <nav data-bs-theme="light" class="navbar navbar-expand-lg fixed-top" style="background: rgb(202, 198, 202);">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="{{ url_for('static', filename='img/logo.png') }}" width="50"  alt="">
-                    LogikaBlog</a>
+                    BestRecipesForLazyPeople</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -50,7 +50,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="{{url_for('new_article')}}">Додати статтю</a>
+                            <a class="nav-link " aria-current="page" href="{{url_for('new_article')}}">Додати рецепти</a>
                         </li>
                     </ul>
                     <form action="{{url_for('search_page')}}" class="d-flex" role="search" data-bs-theme="light" method="get">
@@ -73,7 +73,7 @@
                 <img src="{{ url_for('static', filename='img/logo.png') }}" width="50"  alt="">
                 LogikaBlog</a>
              <p class="mt-2"><small>
-                Сайт створили учні Logika &copy; 2024
+                Сайт створив учень Logika Горінь Тарас &copy; 2024
             </small></p>   
            
         </div>
