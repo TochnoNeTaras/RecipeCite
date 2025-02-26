@@ -1,0 +1,48 @@
+body {
+    background: rgb(59, 59, 59);
+    /* колір Фону */
+    color: white;
+    /*колір тексту */
+     font-family: "Nunito Sans", sans-serif;
+}
+
+.navbar-brand{
+    font-family: "PT Mono", monospace;
+}
+
+h1, h2, h3, h4 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "PT Mono", monospace;
+}
+
+a {
+    color: #ffffff;
+}
+
+.button {
+    color: #ffffff;
+    background: hsl(183, 85%, 50%);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+    border: 3px solid white;
+    margin: 20px;
+    display: block;
+    width: 150px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.button:hover {
+    box-shadow: 0 0 15px #EC13E1;
+    background: #EC13E1;
+    background: linear-gradient(49deg, rgba(133, 9, 215, 1) 0%, rgba(253, 29, 29, 1) 58%, rgba(255, 156, 18, 1) 100%);
+}
+
+
+footer{
+    background: #1b1b1b;
+    color: white;
+}
+
